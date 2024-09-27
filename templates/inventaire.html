@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventaire</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Inventaire des aliments</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Type</th>
+                <th>Nom spécifique</th>
+                <th>Rôle</th>
+                <th>% de Rôle</th>
+                <th>Date de péremption</th>
+                <th>Quantité</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in items %}
+            <tr>
+                <td>{{ item.type }}</td>
+                <td>{{ item.name }}</td>
+                <td>{{ item.role }}</td>
+                <td>{{ item.role_percentage }}</td>
+                <td>{{ item.expiration_date }}</td>
+                <td>{{ item.quantity }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

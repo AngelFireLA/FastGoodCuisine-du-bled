@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suggestion de Repas</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Suggestion de repas</h1>
+    <div class="meal-suggestion">
+        <h2>Plat principal:</h2>
+        {% if meal.plat %}
+            <p>{{ meal.plat['name'] }} - Date de péremption: {{ meal.plat['expiration_date'] }}</p>
+        {% else %}
+            <p>Aucun plat principal disponible.</p>
+        {% endif %}
+
+        <h2>Accompagnement:</h2>
+        {% if meal.accompagnement %}
+            <p>{{ meal.accompagnement['name'] }} - Date de péremption: {{ meal.accompagnement['expiration_date'] }}</p>
+        {% else %}
+            <p>Aucun accompagnement disponible.</p>
+        {% endif %}
+
+        <h2>Dessert:</h2>
+        {% if meal.dessert %}
+            <p>{{ meal.dessert['name'] }} - Date de péremption: {{ meal.dessert['expiration_date'] }}</p>
+        {% else %}
+            <p>Aucun dessert disponible.</p>
+        {% endif %}
+    </div>
+</body>
+</html>

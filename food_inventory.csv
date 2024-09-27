@@ -1,0 +1,29 @@
+type,name,role,role_percentage,expiration_date,quantity
+poisson,Bonbons au poisson,Entrée,100,2024-10-07,7
+fromage,Cheddar Rappé,Autre,0,2024-10-27,2
+fromage,Cousteron,Pré-dessert,100,2024-10-07,9
+croissants,Croissants,Petit-dej,50,2024-09-18,8
+donuts,Donuts couche chocolat,Goûter,100,2025-05-04,5
+figues,Figues Normales,Dessert,50,2024-09-20,10
+fromage,Fromage Rappé,Autre,0,2024-10-20,4
+viande,Jambon,Plat,50,2024-09-19,2.5
+jus_de_pommes,Jus de Pommes,Boisson,100,2025-07-25,2
+lait,Lait Normal,Boisson,400,2024-12-04,5
+petit dessert,Marrons Suiss,Dessert,100,2024-09-11,4
+carottes,Petites Carottes,Entrée,20,2024-09-11,21
+viande,Pilons de Poulet,Plat,100,2024-09-18,0
+pâtes,Pâtes Rigate,Accompagnement,300,2027-05-01,1
+riz,Riz Cantonnais,Accompagnement,100,2025-06-18,1
+riz,Riz Nature,Accompagnement,100,2025-05-28,1
+viande,Rôti de Porc,Plat,50,2024-09-26,2
+salade,Salade Verte,Pré-dessert,70,2024-09-19,1
+sauce tomate,Sauce tomate,Autre,0,2026-06-03,2
+poisson,Saumon Fumé,Plat,60,2024-09-28,1
+friandise,Snicker,Goûter,50,2025-01-01,2
+taboulet,Taboulet Basique,Accompagnement,100,2024-10-01,2
+tomates cerises,Tomates Cerises Rouges,Entrée,34,2024-09-18,12
+fromage,Tranches de Fromage,Plat,20,2024-12-04,3
+pain,Tranches de Pain,Plat,25,2024-09-13,12
+céréales,Trésor Kellogs,Petit-dej,100,2025-05-23,1
+pâtes,Pasta Box Carbonara,Plat,100,2024-10-08,1
+viande,Cuisses de Poulet,Plat,100,2024-10-26,2
